@@ -9,4 +9,8 @@ public class Hello {
     public static void hello(){
         System.out.println("I love you");
     }
+
+    public void printlnMy(){
+        System.out.println("我是那个很帅的男人");
+    }
 }
