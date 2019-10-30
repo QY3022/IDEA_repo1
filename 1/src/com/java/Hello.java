@@ -6,6 +6,7 @@ public class Hello {
     public static void main(String[] args) {
         System.out.println("hello java");
         hello();
+        extentsNum(2,3);
     }
 
     private static void hello(){
@@ -18,4 +19,14 @@ public class Hello {
         i++;
         System.out.println(i);
     }
+
+    public static void extentsNum(int a,int b){
+        System.out.println(a+"::::"+b);
+        a = a^b;
+        b = a^b;
+        a = a^b;
+        System.out.println(a+"::::"+b);
+    }
+
+
 }
