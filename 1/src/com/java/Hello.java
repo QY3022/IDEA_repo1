@@ -6,11 +6,14 @@ public class Hello {
         hello();
     }
 
-    public static void hello(){
+    private static void hello(){
         System.out.println("I love you");
     }
 
     public void printlnMy(){
         System.out.println("我是那个很帅的男人");
+        int i =0;
+        i++;
+        System.out.println(i);
     }
 }
