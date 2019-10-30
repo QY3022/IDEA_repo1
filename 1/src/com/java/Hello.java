@@ -4,10 +4,12 @@ import java.util.SortedMap;
 
 public class Hello {
     public static void main(String[] args) {
-        System.out.println("hello java");
-        hello();
-        extentsNum(2,3);
-    }
+        try {
+            return;
+        }finally {
+            System.out.println(111);
+        }
+        }
 
     private static void hello(){
         System.out.println("I love you");
