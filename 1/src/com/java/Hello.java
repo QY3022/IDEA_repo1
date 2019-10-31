@@ -1,15 +1,12 @@
 package com.java;
 
-import java.util.SortedMap;
+import java.util.Objects;
 
 public class Hello {
     public static void main(String[] args) {
-        try {
-            return;
-        }finally {
-            System.out.println(111);
-        }
-        }
+        PrintStr("sss");
+
+    }
 
     private static void hello(){
         System.out.println("I love you");
@@ -30,5 +27,16 @@ public class Hello {
         System.out.println(a+"::::"+b);
     }
 
+    public void pringtStr(){
+        String s = "a,b,c,,";
+        String[] strArray = s.split(",");
+        System.out.println(strArray.length);
+    }
+
+    public static void PrintStr(String s){
+        if(s.equals("sss")){
+            System.out.println("I LOVE YOU");
+        }
+    }
 
 }
