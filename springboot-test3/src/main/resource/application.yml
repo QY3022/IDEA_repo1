@@ -1,0 +1,7 @@
+#配置远程连接数据库，Linux下面的mysql5.6，注意网段ip的变化,目前虚拟机没有配置静态IP
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.1.63:3306/test_springboot
+    username: root
+    password: mysql
