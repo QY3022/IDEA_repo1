@@ -6,6 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -21,16 +22,15 @@ import javax.validation.constraints.Min;
 @Table(name = "user")
 @AllArgsConstructor
 @NoArgsConstructor
-@ApiModel("用户表这么的一个东西")
 public class User {
 
-    @ApiModelProperty("用户ID")
     @Id
+    @Column(name = "id")
     private Long id;
 
-    @ApiModelProperty("名字")
+    @Column(name = "name")
     private String name;
 
-    @ApiModelProperty("年龄")
+    @Column(name = "age")
     private Long age;
 }
