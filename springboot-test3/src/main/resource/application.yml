@@ -5,3 +5,7 @@ spring:
     url: jdbc:mysql://192.168.1.63:3306/test_springboot
     username: root
     password: mysql
+
+#有一个string类型的
+value:
+  name: OneSalt

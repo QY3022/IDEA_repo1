@@ -75,6 +75,9 @@ public class JasyptUtil {
         System.out.println(decyptText("L47Rflj1s41sDqUsPNwh6Nf2O0isAfBe"));
 
 //        System.out.println(decyptText("q/M+YmHGYTH8E+16UMJ6e0HuDxfqcDu5nTJUzzvhENimXRvhO19HCs8BC7kqCzbL6+Rq1AZ0Q1Y="));
-
+        System.out.println("---- ---- ---- ----");
+        System.out.println(encryptText(encryptText("123456")));
+        System.out.println(decyptText(decyptText("PKoMeFFyKKzv3Kd/rkgDahF7Qm22TIXuUuSewqoUYoTqBYPRgoJUFg==")));
+        System.out.println(decyptText("123456"));
     }
 }
