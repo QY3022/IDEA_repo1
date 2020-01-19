@@ -25,7 +25,7 @@ public class Test1 {
     @Test
     public void contextLoads() {
         //加密方法
-        String encrypt = stringEncryptor.encrypt("123eadsfsgdzx456");
+        String encrypt = stringEncryptor.encrypt("123eadsf sgdzx456");
         System.out.println(encrypt);
         System.out.println(encrypt.length());
         //解密方法
