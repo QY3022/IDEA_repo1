@@ -1,0 +1,609 @@
+[INFO] [2019-12-15 13:17:20][com.APP - 48]Starting APP on DESKTOP-MV63QL8 with PID 15400 (started by QY3022 in G:\Java----微服务\springBoot\MyCode\primary)
+[INFO] [2019-12-15 13:17:20][com.APP - 593]No active profile set, falling back to default profiles: default
+[INFO] [2019-12-15 13:17:20][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@103f852: startup date [Sun Dec 15 13:17:20 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 13:17:21][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+[WARN] [2019-12-15 13:17:22][org.mybatis.spring.mapper.ClassPathMapperScanner - 167]No MyBatis mapper was found in '[com]' package. Please check your configuration.
+[INFO] [2019-12-15 13:17:23][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 89]Tomcat initialized with port(s): 8080 (http)
+[INFO] [2019-12-15 13:17:23][org.springframework.web.context.ContextLoader - 276]Root WebApplicationContext: initialization completed in 2374 ms
+[INFO] [2019-12-15 13:17:23][org.springframework.boot.web.servlet.ServletRegistrationBean - 190]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] [2019-12-15 13:17:23][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] [2019-12-15 13:17:23][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] [2019-12-15 13:17:23][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] [2019-12-15 13:17:23][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] [2019-12-15 13:17:23][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - 534]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@103f852: startup date [Sun Dec 15 13:17:20 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 13:17:23][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/hello]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.controller.HelloWorld.showHelloWorld()
+[INFO] [2019-12-15 13:17:23][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [2019-12-15 13:17:23][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [2019-12-15 13:17:23][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 13:17:23][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 13:17:23][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[WARN] [2019-12-15 13:17:23][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 551]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+[INFO] [2019-12-15 13:17:23][org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer - 101]
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[ERROR] [2019-12-15 13:17:23][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 42]
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+
+[INFO] [2019-12-15 13:20:11][com.APP - 48]Starting APP on DESKTOP-MV63QL8 with PID 13252 (started by QY3022 in G:\Java----微服务\springBoot\MyCode\primary)
+[INFO] [2019-12-15 13:20:11][com.APP - 593]No active profile set, falling back to default profiles: default
+[INFO] [2019-12-15 13:20:11][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@103f852: startup date [Sun Dec 15 13:20:11 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 13:20:11][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+[ERROR] [2019-12-15 13:20:12][org.springframework.boot.SpringApplication - 771]Application startup failed
+org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'longAddable' for bean class [com.google.common.hash.LongAddable] conflicts with existing, non-compatible bean definition of same name and class [com.google.common.cache.LongAddable]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:345)
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate(ClassPathMapperScanner.java:237)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:283)
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:164)
+	at org.mybatis.spring.annotation.MapperScannerRegistrar.registerBeanDefinitions(MapperScannerRegistrar.java:105)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:359)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:143)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:116)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:320)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:228)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:272)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:92)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:687)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:525)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.APP.main(APP.java:16)
+[INFO] [2019-12-15 13:20:12][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 984]Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@103f852: startup date [Sun Dec 15 13:20:11 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 13:23:17][com.APP - 48]Starting APP on DESKTOP-MV63QL8 with PID 15296 (started by QY3022 in G:\Java----微服务\springBoot\MyCode\primary)
+[INFO] [2019-12-15 13:23:17][com.APP - 593]No active profile set, falling back to default profiles: default
+[INFO] [2019-12-15 13:23:17][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@281e3708: startup date [Sun Dec 15 13:23:17 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 13:23:17][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+[WARN] [2019-12-15 13:23:18][org.mybatis.spring.mapper.ClassPathMapperScanner - 167]No MyBatis mapper was found in '[com]' package. Please check your configuration.
+[INFO] [2019-12-15 13:23:19][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 89]Tomcat initialized with port(s): 8080 (http)
+[INFO] [2019-12-15 13:23:19][org.springframework.web.context.ContextLoader - 276]Root WebApplicationContext: initialization completed in 2302 ms
+[INFO] [2019-12-15 13:23:19][org.springframework.boot.web.servlet.ServletRegistrationBean - 190]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] [2019-12-15 13:23:19][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] [2019-12-15 13:23:19][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] [2019-12-15 13:23:19][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] [2019-12-15 13:23:19][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] [2019-12-15 13:23:19][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - 534]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@281e3708: startup date [Sun Dec 15 13:23:17 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 13:23:19][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/hello]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.controller.HelloWorld.showHelloWorld()
+[INFO] [2019-12-15 13:23:19][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [2019-12-15 13:23:19][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [2019-12-15 13:23:19][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 13:23:19][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 13:23:19][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[WARN] [2019-12-15 13:23:19][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 551]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+[INFO] [2019-12-15 13:23:19][org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer - 101]
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[ERROR] [2019-12-15 13:23:19][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 42]
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+
+[INFO] [2019-12-15 13:23:28][com.APP - 48]Starting APP on DESKTOP-MV63QL8 with PID 9184 (started by QY3022 in G:\Java----微服务\springBoot\MyCode\primary)
+[INFO] [2019-12-15 13:23:28][com.APP - 593]No active profile set, falling back to default profiles: default
+[INFO] [2019-12-15 13:23:29][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@103f852: startup date [Sun Dec 15 13:23:29 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 13:23:29][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+[WARN] [2019-12-15 13:23:30][org.mybatis.spring.mapper.ClassPathMapperScanner - 167]No MyBatis mapper was found in '[com]' package. Please check your configuration.
+[INFO] [2019-12-15 13:23:31][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 89]Tomcat initialized with port(s): 8080 (http)
+[INFO] [2019-12-15 13:23:31][org.springframework.web.context.ContextLoader - 276]Root WebApplicationContext: initialization completed in 2216 ms
+[INFO] [2019-12-15 13:23:31][org.springframework.boot.web.servlet.ServletRegistrationBean - 190]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] [2019-12-15 13:23:31][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] [2019-12-15 13:23:31][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] [2019-12-15 13:23:31][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] [2019-12-15 13:23:31][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] [2019-12-15 13:23:31][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - 534]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@103f852: startup date [Sun Dec 15 13:23:29 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 13:23:31][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [2019-12-15 13:23:31][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [2019-12-15 13:23:31][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 13:23:31][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 13:23:31][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[WARN] [2019-12-15 13:23:31][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 551]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+[INFO] [2019-12-15 13:23:31][org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer - 101]
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[ERROR] [2019-12-15 13:23:31][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 42]
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+
+[INFO] [2019-12-15 13:27:22][com.APP - 48]Starting APP on DESKTOP-MV63QL8 with PID 2756 (started by QY3022 in G:\Java----微服务\springBoot\MyCode\primary)
+[INFO] [2019-12-15 13:27:22][com.APP - 593]No active profile set, falling back to default profiles: default
+[INFO] [2019-12-15 13:27:22][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@103f852: startup date [Sun Dec 15 13:27:22 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 13:27:23][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+[WARN] [2019-12-15 13:27:24][org.mybatis.spring.mapper.ClassPathMapperScanner - 167]No MyBatis mapper was found in '[com]' package. Please check your configuration.
+[INFO] [2019-12-15 13:27:24][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 89]Tomcat initialized with port(s): 8080 (http)
+[INFO] [2019-12-15 13:27:24][org.springframework.web.context.ContextLoader - 276]Root WebApplicationContext: initialization completed in 1782 ms
+[INFO] [2019-12-15 13:27:24][org.springframework.boot.web.servlet.ServletRegistrationBean - 190]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] [2019-12-15 13:27:24][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] [2019-12-15 13:27:24][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] [2019-12-15 13:27:24][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] [2019-12-15 13:27:24][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] [2019-12-15 13:27:24][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - 534]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@103f852: startup date [Sun Dec 15 13:27:22 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 13:27:24][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/hello]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.HelloWorld.showHelloWorld()
+[INFO] [2019-12-15 13:27:24][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [2019-12-15 13:27:24][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [2019-12-15 13:27:24][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 13:27:24][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 13:27:24][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[WARN] [2019-12-15 13:27:25][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 551]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+[INFO] [2019-12-15 13:27:25][org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer - 101]
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[ERROR] [2019-12-15 13:27:25][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 42]
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+
+[INFO] [2019-12-15 13:32:05][com.APP - 48]Starting APP on DESKTOP-MV63QL8 with PID 9700 (started by QY3022 in G:\Java----微服务\springBoot\MyCode\primary)
+[INFO] [2019-12-15 13:32:05][com.APP - 593]No active profile set, falling back to default profiles: default
+[INFO] [2019-12-15 13:32:05][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@103f852: startup date [Sun Dec 15 13:32:05 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 13:32:05][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+[INFO] [2019-12-15 13:32:05][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 89]Tomcat initialized with port(s): 8080 (http)
+[INFO] [2019-12-15 13:32:05][org.springframework.web.context.ContextLoader - 276]Root WebApplicationContext: initialization completed in 887 ms
+[INFO] [2019-12-15 13:32:06][org.springframework.boot.web.servlet.ServletRegistrationBean - 190]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] [2019-12-15 13:32:06][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] [2019-12-15 13:32:06][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] [2019-12-15 13:32:06][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] [2019-12-15 13:32:06][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] [2019-12-15 13:32:06][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - 534]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@103f852: startup date [Sun Dec 15 13:32:05 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 13:32:06][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/hello]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.HelloWorld.showHelloWorld()
+[INFO] [2019-12-15 13:32:06][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [2019-12-15 13:32:06][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [2019-12-15 13:32:06][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 13:32:06][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 13:32:06][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 13:32:06][org.springframework.jmx.export.annotation.AnnotationMBeanExporter - 431]Registering beans for JMX exposure on startup
+[INFO] [2019-12-15 13:32:06][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 201]Tomcat started on port(s): 8080 (http)
+[INFO] [2019-12-15 13:32:06][com.APP - 57]Started APP in 1.57 seconds (JVM running for 2.456)
+[INFO] [2019-12-15 13:32:15][org.springframework.web.servlet.DispatcherServlet - 489]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [2019-12-15 13:32:15][org.springframework.web.servlet.DispatcherServlet - 508]FrameworkServlet 'dispatcherServlet': initialization completed in 10 ms
+[INFO] [2019-12-15 14:12:23][com.APP - 48]Starting APP on DESKTOP-MV63QL8 with PID 12128 (started by QY3022 in G:\Java----微服务\springBoot\MyCode\primary)
+[INFO] [2019-12-15 14:12:23][com.APP - 593]No active profile set, falling back to default profiles: default
+[INFO] [2019-12-15 14:12:23][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@103f852: startup date [Sun Dec 15 14:12:23 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 14:12:23][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+[INFO] [2019-12-15 14:12:24][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 89]Tomcat initialized with port(s): 8080 (http)
+[INFO] [2019-12-15 14:12:24][org.springframework.web.context.ContextLoader - 276]Root WebApplicationContext: initialization completed in 1019 ms
+[INFO] [2019-12-15 14:12:24][org.springframework.boot.web.servlet.ServletRegistrationBean - 190]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] [2019-12-15 14:12:24][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] [2019-12-15 14:12:24][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] [2019-12-15 14:12:24][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] [2019-12-15 14:12:24][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] [2019-12-15 14:12:24][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - 534]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@103f852: startup date [Sun Dec 15 14:12:23 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 14:12:24][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/hello]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.HelloWorld.showHelloWorld()
+[INFO] [2019-12-15 14:12:24][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [2019-12-15 14:12:24][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [2019-12-15 14:12:24][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 14:12:24][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 14:12:24][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 14:12:24][org.springframework.jmx.export.annotation.AnnotationMBeanExporter - 431]Registering beans for JMX exposure on startup
+[INFO] [2019-12-15 14:12:24][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 201]Tomcat started on port(s): 8080 (http)
+[INFO] [2019-12-15 14:12:24][com.APP - 57]Started APP in 1.689 seconds (JVM running for 2.521)
+[INFO] [2019-12-15 14:13:25][com.APP - 48]Starting APP on DESKTOP-MV63QL8 with PID 9596 (started by QY3022 in G:\Java----微服务\springBoot\MyCode\primary)
+[INFO] [2019-12-15 14:13:25][com.APP - 593]No active profile set, falling back to default profiles: default
+[INFO] [2019-12-15 14:13:25][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@103f852: startup date [Sun Dec 15 14:13:25 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 14:13:25][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+[INFO] [2019-12-15 14:13:26][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 89]Tomcat initialized with port(s): 8080 (http)
+[INFO] [2019-12-15 14:13:26][org.springframework.web.context.ContextLoader - 276]Root WebApplicationContext: initialization completed in 902 ms
+[INFO] [2019-12-15 14:13:26][org.springframework.boot.web.servlet.ServletRegistrationBean - 190]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] [2019-12-15 14:13:26][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] [2019-12-15 14:13:26][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] [2019-12-15 14:13:26][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] [2019-12-15 14:13:26][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] [2019-12-15 14:13:26][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - 534]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@103f852: startup date [Sun Dec 15 14:13:25 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 14:13:26][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/hello]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.HelloWorld.showHelloWorld()
+[INFO] [2019-12-15 14:13:26][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [2019-12-15 14:13:26][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [2019-12-15 14:13:26][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 14:13:26][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 14:13:26][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 14:13:26][org.springframework.jmx.export.annotation.AnnotationMBeanExporter - 431]Registering beans for JMX exposure on startup
+[INFO] [2019-12-15 14:13:26][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 201]Tomcat started on port(s): 8080 (http)
+[INFO] [2019-12-15 14:13:26][com.APP - 57]Started APP in 1.535 seconds (JVM running for 2.399)
+[INFO] [2019-12-15 14:14:12][org.springframework.web.servlet.DispatcherServlet - 489]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [2019-12-15 14:14:12][org.springframework.web.servlet.DispatcherServlet - 508]FrameworkServlet 'dispatcherServlet': initialization completed in 11 ms
+[INFO] [2019-12-15 14:52:54][com.APP - 48]Starting APP on DESKTOP-MV63QL8 with PID 11076 (started by QY3022 in G:\Java----微服务\springBoot\MyCode\primary)
+[INFO] [2019-12-15 14:52:54][com.APP - 593]No active profile set, falling back to default profiles: default
+[INFO] [2019-12-15 14:52:54][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4bb4de6a: startup date [Sun Dec 15 14:52:54 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 14:52:54][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+[INFO] [2019-12-15 14:52:55][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 89]Tomcat initialized with port(s): 8080 (http)
+[INFO] [2019-12-15 14:52:55][org.springframework.web.context.ContextLoader - 276]Root WebApplicationContext: initialization completed in 902 ms
+[INFO] [2019-12-15 14:52:55][org.springframework.boot.web.servlet.ServletRegistrationBean - 190]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] [2019-12-15 14:52:55][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] [2019-12-15 14:52:55][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] [2019-12-15 14:52:55][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] [2019-12-15 14:52:55][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] [2019-12-15 14:52:55][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - 534]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4bb4de6a: startup date [Sun Dec 15 14:52:54 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 14:52:55][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/hello]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.HelloWorld.showHelloWorld()
+[INFO] [2019-12-15 14:52:55][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/upload]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.Upload.UploadFile(org.springframework.web.multipart.MultipartFile)
+[INFO] [2019-12-15 14:52:55][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [2019-12-15 14:52:55][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [2019-12-15 14:52:55][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 14:52:55][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 14:52:55][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 14:52:55][org.springframework.jmx.export.annotation.AnnotationMBeanExporter - 431]Registering beans for JMX exposure on startup
+[INFO] [2019-12-15 14:52:55][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 201]Tomcat started on port(s): 8080 (http)
+[INFO] [2019-12-15 14:52:55][com.APP - 57]Started APP in 1.58 seconds (JVM running for 2.428)
+[INFO] [2019-12-15 14:53:04][org.springframework.web.servlet.DispatcherServlet - 489]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [2019-12-15 14:53:04][org.springframework.web.servlet.DispatcherServlet - 508]FrameworkServlet 'dispatcherServlet': initialization completed in 11 ms
+[INFO] [2019-12-15 14:54:45][com.APP - 48]Starting APP on DESKTOP-MV63QL8 with PID 11156 (started by QY3022 in G:\Java----微服务\springBoot\MyCode\primary)
+[INFO] [2019-12-15 14:54:45][com.APP - 593]No active profile set, falling back to default profiles: default
+[INFO] [2019-12-15 14:54:45][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4bb4de6a: startup date [Sun Dec 15 14:54:45 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 14:54:45][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+[INFO] [2019-12-15 14:54:46][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 89]Tomcat initialized with port(s): 8080 (http)
+[INFO] [2019-12-15 14:54:46][org.springframework.web.context.ContextLoader - 276]Root WebApplicationContext: initialization completed in 944 ms
+[INFO] [2019-12-15 14:54:46][org.springframework.boot.web.servlet.ServletRegistrationBean - 190]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] [2019-12-15 14:54:46][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] [2019-12-15 14:54:46][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] [2019-12-15 14:54:46][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] [2019-12-15 14:54:46][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] [2019-12-15 14:54:46][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - 534]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4bb4de6a: startup date [Sun Dec 15 14:54:45 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 14:54:46][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/hello]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.HelloWorld.showHelloWorld()
+[INFO] [2019-12-15 14:54:46][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/upload]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.Upload.UploadFile(org.springframework.web.multipart.MultipartFile)
+[INFO] [2019-12-15 14:54:46][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [2019-12-15 14:54:46][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [2019-12-15 14:54:46][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 14:54:46][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 14:54:46][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 14:54:46][org.springframework.jmx.export.annotation.AnnotationMBeanExporter - 431]Registering beans for JMX exposure on startup
+[INFO] [2019-12-15 14:54:46][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 201]Tomcat started on port(s): 8080 (http)
+[INFO] [2019-12-15 14:54:46][com.APP - 57]Started APP in 1.631 seconds (JVM running for 2.456)
+[INFO] [2019-12-15 14:54:52][org.springframework.web.servlet.DispatcherServlet - 489]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [2019-12-15 14:54:52][org.springframework.web.servlet.DispatcherServlet - 508]FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
+[INFO] [2019-12-15 14:57:11][com.APP - 48]Starting APP on DESKTOP-MV63QL8 with PID 16228 (started by QY3022 in G:\Java----微服务\springBoot\MyCode\primary)
+[INFO] [2019-12-15 14:57:11][com.APP - 593]No active profile set, falling back to default profiles: default
+[INFO] [2019-12-15 14:57:11][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4bb4de6a: startup date [Sun Dec 15 14:57:11 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 14:57:11][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+[INFO] [2019-12-15 14:57:12][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 89]Tomcat initialized with port(s): 8080 (http)
+[INFO] [2019-12-15 14:57:12][org.springframework.web.context.ContextLoader - 276]Root WebApplicationContext: initialization completed in 886 ms
+[INFO] [2019-12-15 14:57:12][org.springframework.boot.web.servlet.ServletRegistrationBean - 190]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] [2019-12-15 14:57:12][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] [2019-12-15 14:57:12][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] [2019-12-15 14:57:12][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] [2019-12-15 14:57:12][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] [2019-12-15 14:57:12][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - 534]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4bb4de6a: startup date [Sun Dec 15 14:57:11 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 14:57:12][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/hello]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.HelloWorld.showHelloWorld()
+[INFO] [2019-12-15 14:57:12][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/upload]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.Upload.UploadFile(org.springframework.web.multipart.MultipartFile) throws java.lang.Exception
+[INFO] [2019-12-15 14:57:12][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [2019-12-15 14:57:12][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [2019-12-15 14:57:12][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 14:57:12][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 14:57:12][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 14:57:13][org.springframework.jmx.export.annotation.AnnotationMBeanExporter - 431]Registering beans for JMX exposure on startup
+[INFO] [2019-12-15 14:57:13][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 201]Tomcat started on port(s): 8080 (http)
+[INFO] [2019-12-15 14:57:13][com.APP - 57]Started APP in 1.544 seconds (JVM running for 2.386)
+[INFO] [2019-12-15 14:58:24][org.springframework.web.servlet.DispatcherServlet - 489]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [2019-12-15 14:58:24][org.springframework.web.servlet.DispatcherServlet - 508]FrameworkServlet 'dispatcherServlet': initialization completed in 9 ms
+[INFO] [2019-12-15 14:58:38][com.APP - 48]Starting APP on DESKTOP-MV63QL8 with PID 6112 (started by QY3022 in G:\Java----微服务\springBoot\MyCode\primary)
+[INFO] [2019-12-15 14:58:38][com.APP - 593]No active profile set, falling back to default profiles: default
+[INFO] [2019-12-15 14:58:38][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4bb4de6a: startup date [Sun Dec 15 14:58:38 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 14:58:38][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+[INFO] [2019-12-15 14:58:39][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 89]Tomcat initialized with port(s): 8080 (http)
+[INFO] [2019-12-15 14:58:39][org.springframework.web.context.ContextLoader - 276]Root WebApplicationContext: initialization completed in 864 ms
+[INFO] [2019-12-15 14:58:39][org.springframework.boot.web.servlet.ServletRegistrationBean - 190]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] [2019-12-15 14:58:39][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] [2019-12-15 14:58:39][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] [2019-12-15 14:58:39][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] [2019-12-15 14:58:39][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] [2019-12-15 14:58:39][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - 534]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4bb4de6a: startup date [Sun Dec 15 14:58:38 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 14:58:39][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/hello]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.HelloWorld.showHelloWorld()
+[INFO] [2019-12-15 14:58:39][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/upload]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.Upload.UploadFile(org.springframework.web.multipart.MultipartFile) throws java.lang.Exception
+[INFO] [2019-12-15 14:58:39][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [2019-12-15 14:58:39][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [2019-12-15 14:58:39][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 14:58:39][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 14:58:39][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 14:58:40][org.springframework.jmx.export.annotation.AnnotationMBeanExporter - 431]Registering beans for JMX exposure on startup
+[INFO] [2019-12-15 14:58:40][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 201]Tomcat started on port(s): 8080 (http)
+[INFO] [2019-12-15 14:58:40][com.APP - 57]Started APP in 1.543 seconds (JVM running for 2.381)
+[INFO] [2019-12-15 14:58:42][org.springframework.web.servlet.DispatcherServlet - 489]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [2019-12-15 14:58:42][org.springframework.web.servlet.DispatcherServlet - 508]FrameworkServlet 'dispatcherServlet': initialization completed in 9 ms
+[INFO] [2019-12-15 15:06:14][com.APP - 48]Starting APP on DESKTOP-MV63QL8 with PID 13180 (started by QY3022 in G:\Java----微服务\springBoot\MyCode\primary)
+[INFO] [2019-12-15 15:06:14][com.APP - 593]No active profile set, falling back to default profiles: default
+[INFO] [2019-12-15 15:06:14][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4bb4de6a: startup date [Sun Dec 15 15:06:14 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 15:06:14][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+[INFO] [2019-12-15 15:06:15][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 89]Tomcat initialized with port(s): 8080 (http)
+[INFO] [2019-12-15 15:06:15][org.springframework.web.context.ContextLoader - 276]Root WebApplicationContext: initialization completed in 909 ms
+[INFO] [2019-12-15 15:06:15][org.springframework.boot.web.servlet.ServletRegistrationBean - 190]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] [2019-12-15 15:06:15][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] [2019-12-15 15:06:15][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] [2019-12-15 15:06:15][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] [2019-12-15 15:06:15][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] [2019-12-15 15:06:15][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - 534]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4bb4de6a: startup date [Sun Dec 15 15:06:14 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 15:06:15][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/hello]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.HelloWorld.showHelloWorld()
+[INFO] [2019-12-15 15:06:15][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/upload]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.Upload.UploadFile(org.springframework.web.multipart.MultipartFile) throws java.lang.Exception
+[INFO] [2019-12-15 15:06:15][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [2019-12-15 15:06:15][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [2019-12-15 15:06:15][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 15:06:15][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 15:06:15][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 15:06:15][org.springframework.jmx.export.annotation.AnnotationMBeanExporter - 431]Registering beans for JMX exposure on startup
+[INFO] [2019-12-15 15:06:15][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 201]Tomcat started on port(s): 8080 (http)
+[INFO] [2019-12-15 15:06:15][com.APP - 57]Started APP in 1.614 seconds (JVM running for 2.434)
+[INFO] [2019-12-15 15:06:21][org.springframework.web.servlet.DispatcherServlet - 489]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [2019-12-15 15:06:21][org.springframework.web.servlet.DispatcherServlet - 508]FrameworkServlet 'dispatcherServlet': initialization completed in 11 ms
+[INFO] [2019-12-15 15:07:13][com.APP - 48]Starting APP on DESKTOP-MV63QL8 with PID 13232 (started by QY3022 in G:\Java----微服务\springBoot\MyCode\primary)
+[INFO] [2019-12-15 15:07:13][com.APP - 593]No active profile set, falling back to default profiles: default
+[INFO] [2019-12-15 15:07:13][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4bb4de6a: startup date [Sun Dec 15 15:07:13 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 15:07:13][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+[INFO] [2019-12-15 15:07:14][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 89]Tomcat initialized with port(s): 8080 (http)
+[INFO] [2019-12-15 15:07:14][org.springframework.web.context.ContextLoader - 276]Root WebApplicationContext: initialization completed in 886 ms
+[INFO] [2019-12-15 15:07:14][org.springframework.boot.web.servlet.ServletRegistrationBean - 190]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] [2019-12-15 15:07:14][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] [2019-12-15 15:07:14][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] [2019-12-15 15:07:14][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] [2019-12-15 15:07:14][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] [2019-12-15 15:07:14][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - 534]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4bb4de6a: startup date [Sun Dec 15 15:07:13 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 15:07:14][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/hello]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.HelloWorld.showHelloWorld()
+[INFO] [2019-12-15 15:07:14][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/uploadFilename]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.Upload.UploadFile(org.springframework.web.multipart.MultipartFile) throws java.lang.Exception
+[INFO] [2019-12-15 15:07:14][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [2019-12-15 15:07:14][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [2019-12-15 15:07:14][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 15:07:14][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 15:07:14][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 15:07:14][org.springframework.jmx.export.annotation.AnnotationMBeanExporter - 431]Registering beans for JMX exposure on startup
+[INFO] [2019-12-15 15:07:14][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 201]Tomcat started on port(s): 8080 (http)
+[INFO] [2019-12-15 15:07:14][com.APP - 57]Started APP in 1.557 seconds (JVM running for 2.388)
+[INFO] [2019-12-15 15:07:24][org.springframework.web.servlet.DispatcherServlet - 489]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [2019-12-15 15:07:24][org.springframework.web.servlet.DispatcherServlet - 508]FrameworkServlet 'dispatcherServlet': initialization completed in 9 ms
+[INFO] [2019-12-15 15:50:10][com.APP - 48]Starting APP on DESKTOP-MV63QL8 with PID 4888 (started by QY3022 in G:\Java----微服务\springBoot\MyCode\primary)
+[INFO] [2019-12-15 15:50:10][com.APP - 593]No active profile set, falling back to default profiles: default
+[INFO] [2019-12-15 15:50:10][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5fcd892a: startup date [Sun Dec 15 15:50:10 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 15:50:11][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+[INFO] [2019-12-15 15:50:11][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 89]Tomcat initialized with port(s): 8080 (http)
+[INFO] [2019-12-15 15:50:12][org.springframework.web.context.ContextLoader - 276]Root WebApplicationContext: initialization completed in 1046 ms
+[INFO] [2019-12-15 15:50:12][org.springframework.boot.web.servlet.ServletRegistrationBean - 190]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] [2019-12-15 15:50:12][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] [2019-12-15 15:50:12][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] [2019-12-15 15:50:12][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] [2019-12-15 15:50:12][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] [2019-12-15 15:50:12][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - 534]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5fcd892a: startup date [Sun Dec 15 15:50:10 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 15:50:12][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/hello]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.HelloWorld.showHelloWorld()
+[INFO] [2019-12-15 15:50:12][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/uploadFilename]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.Upload.UploadFile(org.springframework.web.multipart.MultipartFile) throws java.lang.Exception
+[INFO] [2019-12-15 15:50:12][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [2019-12-15 15:50:12][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [2019-12-15 15:50:12][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 15:50:12][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 15:50:12][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 15:50:12][org.springframework.jmx.export.annotation.AnnotationMBeanExporter - 431]Registering beans for JMX exposure on startup
+[INFO] [2019-12-15 15:50:12][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 201]Tomcat started on port(s): 8080 (http)
+[INFO] [2019-12-15 15:50:12][com.APP - 57]Started APP in 1.776 seconds (JVM running for 2.74)
+[INFO] [2019-12-15 15:50:37][org.springframework.web.servlet.DispatcherServlet - 489]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [2019-12-15 15:50:37][org.springframework.web.servlet.DispatcherServlet - 508]FrameworkServlet 'dispatcherServlet': initialization completed in 11 ms
+[INFO] [2019-12-15 16:20:07][com.APP - 48]Starting APP on DESKTOP-MV63QL8 with PID 7172 (started by QY3022 in G:\Java----微服务\springBoot\MyCode\primary)
+[INFO] [2019-12-15 16:20:07][com.APP - 593]No active profile set, falling back to default profiles: default
+[INFO] [2019-12-15 16:20:07][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@80169cf: startup date [Sun Dec 15 16:20:07 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 16:20:07][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+[INFO] [2019-12-15 16:20:08][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 89]Tomcat initialized with port(s): 8080 (http)
+[INFO] [2019-12-15 16:20:08][org.springframework.web.context.ContextLoader - 276]Root WebApplicationContext: initialization completed in 1039 ms
+[INFO] [2019-12-15 16:20:08][org.springframework.boot.web.servlet.ServletRegistrationBean - 190]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] [2019-12-15 16:20:08][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] [2019-12-15 16:20:08][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] [2019-12-15 16:20:08][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] [2019-12-15 16:20:08][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] [2019-12-15 16:20:09][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - 534]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@80169cf: startup date [Sun Dec 15 16:20:07 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 16:20:09][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/hello]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.HelloWorld.showHelloWorld()
+[INFO] [2019-12-15 16:20:09][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/show]}" onto public java.lang.String com.qy.controller.thymeleafContrller.showInfo(org.springframework.ui.Model)
+[INFO] [2019-12-15 16:20:09][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/uploadFilename]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.Upload.UploadFile(org.springframework.web.multipart.MultipartFile) throws java.lang.Exception
+[INFO] [2019-12-15 16:20:09][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [2019-12-15 16:20:09][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [2019-12-15 16:20:09][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 16:20:09][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 16:20:09][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 16:20:09][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer - 127]ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO] [2019-12-15 16:20:09][org.springframework.jmx.export.annotation.AnnotationMBeanExporter - 431]Registering beans for JMX exposure on startup
+[INFO] [2019-12-15 16:20:09][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 201]Tomcat started on port(s): 8080 (http)
+[INFO] [2019-12-15 16:20:09][com.APP - 57]Started APP in 1.804 seconds (JVM running for 2.678)
+[INFO] [2019-12-15 16:20:14][org.springframework.web.servlet.DispatcherServlet - 489]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [2019-12-15 16:20:14][org.springframework.web.servlet.DispatcherServlet - 508]FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+[INFO] [2019-12-15 16:21:10][com.APP - 48]Starting APP on DESKTOP-MV63QL8 with PID 10428 (started by QY3022 in G:\Java----微服务\springBoot\MyCode\primary)
+[INFO] [2019-12-15 16:21:10][com.APP - 593]No active profile set, falling back to default profiles: default
+[INFO] [2019-12-15 16:21:10][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@80169cf: startup date [Sun Dec 15 16:21:10 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 16:21:10][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+[WARN] [2019-12-15 16:21:11][org.mybatis.spring.mapper.ClassPathMapperScanner - 167]No MyBatis mapper was found in '[com]' package. Please check your configuration.
+[INFO] [2019-12-15 16:21:12][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 89]Tomcat initialized with port(s): 8080 (http)
+[INFO] [2019-12-15 16:21:12][org.springframework.web.context.ContextLoader - 276]Root WebApplicationContext: initialization completed in 2019 ms
+[INFO] [2019-12-15 16:21:12][org.springframework.boot.web.servlet.ServletRegistrationBean - 190]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] [2019-12-15 16:21:12][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] [2019-12-15 16:21:12][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] [2019-12-15 16:21:12][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] [2019-12-15 16:21:12][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] [2019-12-15 16:21:12][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - 534]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@80169cf: startup date [Sun Dec 15 16:21:10 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 16:21:12][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/hello]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.HelloWorld.showHelloWorld()
+[INFO] [2019-12-15 16:21:12][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/show]}" onto public java.lang.String com.qy.controller.thymeleafContrller.showInfo(org.springframework.ui.Model)
+[INFO] [2019-12-15 16:21:12][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/uploadFilename]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.Upload.UploadFile(org.springframework.web.multipart.MultipartFile) throws java.lang.Exception
+[INFO] [2019-12-15 16:21:12][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [2019-12-15 16:21:12][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [2019-12-15 16:21:12][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 16:21:12][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 16:21:12][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[WARN] [2019-12-15 16:21:12][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 551]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+[INFO] [2019-12-15 16:21:12][org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer - 101]
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[ERROR] [2019-12-15 16:21:12][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 42]
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+
+[INFO] [2019-12-15 16:22:13][com.APP - 48]Starting APP on DESKTOP-MV63QL8 with PID 15940 (started by QY3022 in G:\Java----微服务\springBoot\MyCode\primary)
+[INFO] [2019-12-15 16:22:13][com.APP - 593]No active profile set, falling back to default profiles: default
+[INFO] [2019-12-15 16:22:13][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@80169cf: startup date [Sun Dec 15 16:22:13 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 16:22:13][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+[INFO] [2019-12-15 16:22:14][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 89]Tomcat initialized with port(s): 8080 (http)
+[INFO] [2019-12-15 16:22:14][org.springframework.web.context.ContextLoader - 276]Root WebApplicationContext: initialization completed in 1019 ms
+[INFO] [2019-12-15 16:22:14][org.springframework.boot.web.servlet.ServletRegistrationBean - 190]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] [2019-12-15 16:22:14][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] [2019-12-15 16:22:14][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] [2019-12-15 16:22:14][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] [2019-12-15 16:22:14][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] [2019-12-15 16:22:14][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - 534]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@80169cf: startup date [Sun Dec 15 16:22:13 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 16:22:14][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/hello]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.HelloWorld.showHelloWorld()
+[INFO] [2019-12-15 16:22:14][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/show]}" onto public java.lang.String com.qy.controller.thymeleafContrller.showInfo(org.springframework.ui.Model)
+[INFO] [2019-12-15 16:22:14][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/uploadFilename]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.Upload.UploadFile(org.springframework.web.multipart.MultipartFile) throws java.lang.Exception
+[INFO] [2019-12-15 16:22:14][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [2019-12-15 16:22:14][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [2019-12-15 16:22:14][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 16:22:14][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 16:22:14][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 16:22:14][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer - 127]ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO] [2019-12-15 16:22:14][org.springframework.jmx.export.annotation.AnnotationMBeanExporter - 431]Registering beans for JMX exposure on startup
+[INFO] [2019-12-15 16:22:14][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 201]Tomcat started on port(s): 8080 (http)
+[INFO] [2019-12-15 16:22:14][com.APP - 57]Started APP in 1.729 seconds (JVM running for 2.574)
+[INFO] [2019-12-15 16:22:22][org.springframework.web.servlet.DispatcherServlet - 489]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [2019-12-15 16:22:22][org.springframework.web.servlet.DispatcherServlet - 508]FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+[INFO] [2019-12-15 16:25:45][com.APP - 48]Starting APP on DESKTOP-MV63QL8 with PID 14720 (started by QY3022 in G:\Java----微服务\springBoot\MyCode\primary)
+[INFO] [2019-12-15 16:25:45][com.APP - 593]No active profile set, falling back to default profiles: default
+[INFO] [2019-12-15 16:25:45][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@80169cf: startup date [Sun Dec 15 16:25:45 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 16:25:45][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+[WARN] [2019-12-15 16:25:46][org.mybatis.spring.mapper.ClassPathMapperScanner - 167]No MyBatis mapper was found in '[com]' package. Please check your configuration.
+[INFO] [2019-12-15 16:25:47][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 89]Tomcat initialized with port(s): 8080 (http)
+[INFO] [2019-12-15 16:25:47][org.springframework.web.context.ContextLoader - 276]Root WebApplicationContext: initialization completed in 1847 ms
+[INFO] [2019-12-15 16:25:47][org.springframework.boot.web.servlet.ServletRegistrationBean - 190]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] [2019-12-15 16:25:47][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] [2019-12-15 16:25:47][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] [2019-12-15 16:25:47][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] [2019-12-15 16:25:47][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] [2019-12-15 16:25:47][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - 534]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@80169cf: startup date [Sun Dec 15 16:25:45 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 16:25:47][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/hello]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.HelloWorld.showHelloWorld()
+[INFO] [2019-12-15 16:25:47][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/show]}" onto public java.lang.String com.qy.controller.thymeleafContrller.showInfo(org.springframework.ui.Model)
+[INFO] [2019-12-15 16:25:47][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/uploadFilename]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.Upload.UploadFile(org.springframework.web.multipart.MultipartFile) throws java.lang.Exception
+[INFO] [2019-12-15 16:25:47][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [2019-12-15 16:25:47][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [2019-12-15 16:25:47][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 16:25:47][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 16:25:47][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 16:25:47][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer - 127]ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO] [2019-12-15 16:25:47][org.springframework.jmx.export.annotation.AnnotationMBeanExporter - 431]Registering beans for JMX exposure on startup
+[INFO] [2019-12-15 16:25:47][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 201]Tomcat started on port(s): 8080 (http)
+[INFO] [2019-12-15 16:25:47][com.APP - 57]Started APP in 2.814 seconds (JVM running for 3.651)
+[INFO] [2019-12-15 16:25:54][org.springframework.web.servlet.DispatcherServlet - 489]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [2019-12-15 16:25:54][org.springframework.web.servlet.DispatcherServlet - 508]FrameworkServlet 'dispatcherServlet': initialization completed in 11 ms
+[INFO] [2019-12-15 16:29:54][com.APP - 48]Starting APP on DESKTOP-MV63QL8 with PID 3216 (started by QY3022 in G:\Java----微服务\springBoot\MyCode\primary)
+[INFO] [2019-12-15 16:29:54][com.APP - 593]No active profile set, falling back to default profiles: default
+[INFO] [2019-12-15 16:29:54][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1e4a7dd4: startup date [Sun Dec 15 16:29:54 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 16:29:54][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+[INFO] [2019-12-15 16:29:55][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 89]Tomcat initialized with port(s): 8080 (http)
+[INFO] [2019-12-15 16:29:55][org.springframework.web.context.ContextLoader - 276]Root WebApplicationContext: initialization completed in 1014 ms
+[INFO] [2019-12-15 16:29:55][org.springframework.boot.web.servlet.ServletRegistrationBean - 190]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] [2019-12-15 16:29:55][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] [2019-12-15 16:29:55][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] [2019-12-15 16:29:55][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] [2019-12-15 16:29:55][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] [2019-12-15 16:29:56][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - 534]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1e4a7dd4: startup date [Sun Dec 15 16:29:54 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 16:29:56][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/hello]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.HelloWorld.showHelloWorld()
+[INFO] [2019-12-15 16:29:56][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/show]}" onto public java.lang.String com.qy.controller.thymeleafContrller.showInfo(org.springframework.ui.Model)
+[INFO] [2019-12-15 16:29:56][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/uploadFilename]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.Upload.UploadFile(org.springframework.web.multipart.MultipartFile) throws java.lang.Exception
+[INFO] [2019-12-15 16:29:56][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [2019-12-15 16:29:56][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [2019-12-15 16:29:56][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 16:29:56][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 16:29:56][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[WARN] [2019-12-15 16:29:56][org.thymeleaf.templatemode.TemplateMode - 150][THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[INFO] [2019-12-15 16:29:56][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer - 127]ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO] [2019-12-15 16:29:56][org.springframework.jmx.export.annotation.AnnotationMBeanExporter - 431]Registering beans for JMX exposure on startup
+[INFO] [2019-12-15 16:29:56][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 201]Tomcat started on port(s): 8080 (http)
+[INFO] [2019-12-15 16:29:56][com.APP - 57]Started APP in 2.058 seconds (JVM running for 2.956)
+[INFO] [2019-12-15 16:30:01][org.springframework.web.servlet.DispatcherServlet - 489]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [2019-12-15 16:30:01][org.springframework.web.servlet.DispatcherServlet - 508]FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
+[INFO] [2019-12-15 17:35:57][com.APP - 48]Starting APP on DESKTOP-MV63QL8 with PID 12200 (started by QY3022 in G:\Java----微服务\springBoot\MyCode\primary)
+[INFO] [2019-12-15 17:35:57][com.APP - 593]No active profile set, falling back to default profiles: default
+[INFO] [2019-12-15 17:35:57][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e57643e: startup date [Sun Dec 15 17:35:57 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 17:35:57][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+[INFO] [2019-12-15 17:35:58][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 89]Tomcat initialized with port(s): 8080 (http)
+[INFO] [2019-12-15 17:35:58][org.springframework.web.context.ContextLoader - 276]Root WebApplicationContext: initialization completed in 1125 ms
+[INFO] [2019-12-15 17:35:58][org.springframework.boot.web.servlet.ServletRegistrationBean - 190]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] [2019-12-15 17:35:58][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] [2019-12-15 17:35:58][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] [2019-12-15 17:35:58][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] [2019-12-15 17:35:58][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] [2019-12-15 17:35:58][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - 534]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e57643e: startup date [Sun Dec 15 17:35:57 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 17:35:58][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/hello]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.HelloWorld.showHelloWorld()
+[INFO] [2019-12-15 17:35:58][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/show]}" onto public java.lang.String com.qy.controller.thymeleafContrller.showInfo(org.springframework.ui.Model)
+[INFO] [2019-12-15 17:35:58][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/uploadFilename]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.Upload.UploadFile(org.springframework.web.multipart.MultipartFile) throws java.lang.Exception
+[INFO] [2019-12-15 17:35:58][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [2019-12-15 17:35:58][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [2019-12-15 17:35:58][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 17:35:58][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 17:35:58][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[WARN] [2019-12-15 17:35:58][org.thymeleaf.templatemode.TemplateMode - 150][THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[INFO] [2019-12-15 17:35:59][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer - 127]ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO] [2019-12-15 17:35:59][org.springframework.jmx.export.annotation.AnnotationMBeanExporter - 431]Registering beans for JMX exposure on startup
+[INFO] [2019-12-15 17:35:59][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 201]Tomcat started on port(s): 8080 (http)
+[INFO] [2019-12-15 17:35:59][com.APP - 57]Started APP in 2.231 seconds (JVM running for 3.121)
+[INFO] [2019-12-15 19:46:16][com.APP - 48]Starting APP on DESKTOP-MV63QL8 with PID 14044 (started by QY3022 in G:\Java----微服务\springBoot\MyCode\primary)
+[INFO] [2019-12-15 19:46:16][com.APP - 593]No active profile set, falling back to default profiles: default
+[INFO] [2019-12-15 19:46:17][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b9e255: startup date [Sun Dec 15 19:46:17 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 19:46:17][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+[INFO] [2019-12-15 19:46:17][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 89]Tomcat initialized with port(s): 8080 (http)
+[INFO] [2019-12-15 19:46:17][org.springframework.web.context.ContextLoader - 276]Root WebApplicationContext: initialization completed in 995 ms
+[INFO] [2019-12-15 19:46:18][org.springframework.boot.web.servlet.ServletRegistrationBean - 190]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] [2019-12-15 19:46:18][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] [2019-12-15 19:46:18][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] [2019-12-15 19:46:18][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] [2019-12-15 19:46:18][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] [2019-12-15 19:46:18][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - 534]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b9e255: startup date [Sun Dec 15 19:46:17 CST 2019]; root of context hierarchy
+[INFO] [2019-12-15 19:46:18][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/hello]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.HelloWorld.showHelloWorld()
+[INFO] [2019-12-15 19:46:18][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/show]}" onto public java.lang.String com.qy.controller.thymeleafContrller.showInfo(org.springframework.ui.Model)
+[INFO] [2019-12-15 19:46:18][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/uploadFilename]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.qy.controller.Upload.UploadFile(org.springframework.web.multipart.MultipartFile) throws java.lang.Exception
+[INFO] [2019-12-15 19:46:18][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/save]}" onto public java.lang.String com.qy.controller.UserControll.add()
+[INFO] [2019-12-15 19:46:18][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/{path}]}" onto public java.lang.String com.qy.controller.UserControll.addUserController(java.lang.String)
+[INFO] [2019-12-15 19:46:18][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [2019-12-15 19:46:18][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [2019-12-15 19:46:18][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 19:46:18][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-12-15 19:46:18][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[WARN] [2019-12-15 19:46:18][org.thymeleaf.templatemode.TemplateMode - 150][THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[INFO] [2019-12-15 19:46:18][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer - 127]ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO] [2019-12-15 19:46:18][org.springframework.jmx.export.annotation.AnnotationMBeanExporter - 431]Registering beans for JMX exposure on startup
+[INFO] [2019-12-15 19:46:18][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 201]Tomcat started on port(s): 8080 (http)
+[INFO] [2019-12-15 19:46:18][com.APP - 57]Started APP in 2.004 seconds (JVM running for 2.876)
+[INFO] [2019-12-15 19:46:27][org.springframework.web.servlet.DispatcherServlet - 489]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [2019-12-15 19:46:27][org.springframework.web.servlet.DispatcherServlet - 508]FrameworkServlet 'dispatcherServlet': initialization completed in 10 ms

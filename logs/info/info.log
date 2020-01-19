@@ -1,0 +1,165 @@
+[INFO] [2019-11-08 15:38:37][com.gyf.App - 48]Starting App on DESKTOP-MV63QL8 with PID 17016 (C:\Users\QY3022\Desktop\Test\springboot-test2\target\classes started by QY3022 in C:\Users\QY3022\Desktop\Test\springboot-test2)
+[INFO] [2019-11-08 15:38:37][com.gyf.App - 593]No active profile set, falling back to default profiles: default
+[INFO] [2019-11-08 15:38:37][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@954b04f: startup date [Fri Nov 08 15:38:37 CST 2019]; root of context hierarchy
+[INFO] [2019-11-08 15:38:37][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+[WARN] [2019-11-08 15:38:37][org.mybatis.spring.mapper.ClassPathMapperScanner - 167]No MyBatis mapper was found in '[com.gyf.mapper.CustomerMapper]' package. Please check your configuration.
+[INFO] [2019-11-08 15:38:38][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 89]Tomcat initialized with port(s): 8080 (http)
+[INFO] [2019-11-08 15:38:38][org.springframework.web.context.ContextLoader - 276]Root WebApplicationContext: initialization completed in 1034 ms
+[INFO] [2019-11-08 15:38:38][org.springframework.boot.web.servlet.ServletRegistrationBean - 190]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] [2019-11-08 15:38:38][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] [2019-11-08 15:38:38][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] [2019-11-08 15:38:38][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] [2019-11-08 15:38:38][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] [2019-11-08 15:38:38][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - 534]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@954b04f: startup date [Fri Nov 08 15:38:37 CST 2019]; root of context hierarchy
+[INFO] [2019-11-08 15:38:38][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/hello/{name}]}" onto public java.lang.String com.gyf.web.controller.HelloController.hello(java.lang.String)
+[INFO] [2019-11-08 15:38:38][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/stu/list]}" onto public java.lang.String com.gyf.web.controller.StudentController.list(org.springframework.ui.Model)
+[INFO] [2019-11-08 15:38:38][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/user/{id}]}" onto public com.gyf.model.User com.gyf.web.controller.UserController.UserInfo(java.lang.Integer)
+[INFO] [2019-11-08 15:38:38][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/user/register]}" onto public java.lang.String com.gyf.web.controller.UserJdbcController.register()
+[INFO] [2019-11-08 15:38:38][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/user/reg]}" onto public java.lang.String com.gyf.web.controller.UserSourceContrller.register()
+[INFO] [2019-11-08 15:38:38][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [2019-11-08 15:38:38][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [2019-11-08 15:38:38][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-11-08 15:38:38][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-11-08 15:38:38][org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - 273]Detected @ExceptionHandler methods in quanJuException
+[INFO] [2019-11-08 15:38:38][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-11-08 15:38:39][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer - 127]ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO] [2019-11-08 15:38:39][org.springframework.jmx.export.annotation.AnnotationMBeanExporter - 431]Registering beans for JMX exposure on startup
+[INFO] [2019-11-08 15:38:39][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 201]Tomcat started on port(s): 8080 (http)
+[INFO] [2019-11-08 15:38:39][com.gyf.App - 57]Started App in 2.049 seconds (JVM running for 2.808)
+[INFO] [2019-11-08 15:38:55][org.springframework.web.servlet.DispatcherServlet - 489]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [2019-11-08 15:38:55][org.springframework.web.servlet.DispatcherServlet - 508]FrameworkServlet 'dispatcherServlet': initialization completed in 11 ms
+[INFO] [2019-11-08 15:38:56][org.springframework.beans.factory.xml.XmlBeanDefinitionReader - 317]Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[INFO] [2019-11-08 15:38:56][org.springframework.jdbc.support.SQLErrorCodesFactory - 127]SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+[INFO] [2019-11-08 15:39:08][com.gyf.App - 48]Starting App on DESKTOP-MV63QL8 with PID 18100 (C:\Users\QY3022\Desktop\Test\springboot-test2\target\classes started by QY3022 in C:\Users\QY3022\Desktop\Test\springboot-test2)
+[INFO] [2019-11-08 15:39:08][com.gyf.App - 593]No active profile set, falling back to default profiles: default
+[INFO] [2019-11-08 15:39:08][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@954b04f: startup date [Fri Nov 08 15:39:08 CST 2019]; root of context hierarchy
+[INFO] [2019-11-08 15:39:08][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+[WARN] [2019-11-08 15:39:08][org.mybatis.spring.mapper.ClassPathMapperScanner - 167]No MyBatis mapper was found in '[com.gyf.mapper.CustomerMapper]' package. Please check your configuration.
+[INFO] [2019-11-08 15:39:09][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 89]Tomcat initialized with port(s): 8080 (http)
+[INFO] [2019-11-08 15:39:09][org.springframework.web.context.ContextLoader - 276]Root WebApplicationContext: initialization completed in 1032 ms
+[INFO] [2019-11-08 15:39:09][org.springframework.boot.web.servlet.ServletRegistrationBean - 190]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] [2019-11-08 15:39:09][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] [2019-11-08 15:39:09][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] [2019-11-08 15:39:09][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] [2019-11-08 15:39:09][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] [2019-11-08 15:39:09][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - 534]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@954b04f: startup date [Fri Nov 08 15:39:08 CST 2019]; root of context hierarchy
+[INFO] [2019-11-08 15:39:10][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/hello/{name}]}" onto public java.lang.String com.gyf.web.controller.HelloController.hello(java.lang.String)
+[INFO] [2019-11-08 15:39:10][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/stu/list]}" onto public java.lang.String com.gyf.web.controller.StudentController.list(org.springframework.ui.Model)
+[INFO] [2019-11-08 15:39:10][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/user/{id}]}" onto public com.gyf.model.User com.gyf.web.controller.UserController.UserInfo(java.lang.Integer)
+[INFO] [2019-11-08 15:39:10][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/user/register]}" onto public java.lang.String com.gyf.web.controller.UserJdbcController.register()
+[INFO] [2019-11-08 15:39:10][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/user/reg]}" onto public java.lang.String com.gyf.web.controller.UserSourceContrller.register()
+[INFO] [2019-11-08 15:39:10][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [2019-11-08 15:39:10][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [2019-11-08 15:39:10][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-11-08 15:39:10][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-11-08 15:39:10][org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - 273]Detected @ExceptionHandler methods in quanJuException
+[INFO] [2019-11-08 15:39:10][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-11-08 15:39:10][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer - 127]ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO] [2019-11-08 15:39:10][org.springframework.jmx.export.annotation.AnnotationMBeanExporter - 431]Registering beans for JMX exposure on startup
+[INFO] [2019-11-08 15:39:10][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 201]Tomcat started on port(s): 8080 (http)
+[INFO] [2019-11-08 15:39:10][com.gyf.App - 57]Started App in 1.988 seconds (JVM running for 2.695)
+[INFO] [2019-11-08 15:39:13][org.springframework.web.servlet.DispatcherServlet - 489]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [2019-11-08 15:39:13][org.springframework.web.servlet.DispatcherServlet - 508]FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
+[INFO] [2019-11-08 15:39:14][com.gyf.service.UserService.UserService - 26]abcdef
+[INFO] [2019-11-08 15:56:52][com.gyf.App - 48]Starting App on DESKTOP-MV63QL8 with PID 9180 (C:\Users\QY3022\Desktop\Test\springboot-test2\target\classes started by QY3022 in C:\Users\QY3022\Desktop\Test\springboot-test2)
+[INFO] [2019-11-08 15:56:52][com.gyf.App - 593]No active profile set, falling back to default profiles: default
+[INFO] [2019-11-08 15:56:52][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@481a15ff: startup date [Fri Nov 08 15:56:52 CST 2019]; root of context hierarchy
+[INFO] [2019-11-08 15:56:52][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+[WARN] [2019-11-08 15:56:52][org.mybatis.spring.mapper.ClassPathMapperScanner - 167]No MyBatis mapper was found in '[com.gyf.mapper.CustomerMapper]' package. Please check your configuration.
+[INFO] [2019-11-08 15:56:53][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 89]Tomcat initialized with port(s): 8080 (http)
+[INFO] [2019-11-08 15:56:53][org.springframework.web.context.ContextLoader - 276]Root WebApplicationContext: initialization completed in 1196 ms
+[INFO] [2019-11-08 15:56:53][org.springframework.boot.web.servlet.ServletRegistrationBean - 190]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] [2019-11-08 15:56:53][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] [2019-11-08 15:56:53][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] [2019-11-08 15:56:53][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] [2019-11-08 15:56:53][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] [2019-11-08 15:56:54][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - 534]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@481a15ff: startup date [Fri Nov 08 15:56:52 CST 2019]; root of context hierarchy
+[INFO] [2019-11-08 15:56:54][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/hello/{name}]}" onto public java.lang.String com.gyf.web.controller.HelloController.hello(java.lang.String)
+[INFO] [2019-11-08 15:56:54][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/stu/list]}" onto public java.lang.String com.gyf.web.controller.StudentController.list(org.springframework.ui.Model)
+[INFO] [2019-11-08 15:56:54][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/user/{id}]}" onto public com.gyf.model.User com.gyf.web.controller.UserController.UserInfo(java.lang.Integer)
+[INFO] [2019-11-08 15:56:54][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/user/register]}" onto public java.lang.String com.gyf.web.controller.UserJdbcController.register()
+[INFO] [2019-11-08 15:56:54][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/user/reg]}" onto public java.lang.String com.gyf.web.controller.UserSourceContrller.register()
+[INFO] [2019-11-08 15:56:54][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [2019-11-08 15:56:54][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [2019-11-08 15:56:54][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-11-08 15:56:54][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-11-08 15:56:54][org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - 273]Detected @ExceptionHandler methods in quanJuException
+[INFO] [2019-11-08 15:56:54][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-11-08 15:56:54][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer - 127]ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO] [2019-11-08 15:56:54][org.springframework.jmx.export.annotation.AnnotationMBeanExporter - 431]Registering beans for JMX exposure on startup
+[INFO] [2019-11-08 15:56:54][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 201]Tomcat started on port(s): 8080 (http)
+[INFO] [2019-11-08 15:56:54][com.gyf.App - 57]Started App in 2.352 seconds (JVM running for 3.1)
+[INFO] [2019-11-08 15:56:58][org.springframework.web.servlet.DispatcherServlet - 489]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [2019-11-08 15:56:58][org.springframework.web.servlet.DispatcherServlet - 508]FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
+[INFO] [2019-11-08 15:56:58][com.gyf.service.UserService.UserService - 26]abcdef
+[INFO] [2019-11-08 15:58:59][com.gyf.App - 48]Starting App on DESKTOP-MV63QL8 with PID 468 (C:\Users\QY3022\Desktop\Test\springboot-test2\target\classes started by QY3022 in C:\Users\QY3022\Desktop\Test\springboot-test2)
+[INFO] [2019-11-08 15:58:59][com.gyf.App - 593]No active profile set, falling back to default profiles: default
+[INFO] [2019-11-08 15:58:59][org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - 583]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@481a15ff: startup date [Fri Nov 08 15:58:59 CST 2019]; root of context hierarchy
+[INFO] [2019-11-08 15:59:00][org.hibernate.validator.internal.util.Version - 30]HV000001: Hibernate Validator 5.3.6.Final
+[WARN] [2019-11-08 15:59:00][org.mybatis.spring.mapper.ClassPathMapperScanner - 167]No MyBatis mapper was found in '[com.gyf.mapper.CustomerMapper]' package. Please check your configuration.
+[INFO] [2019-11-08 15:59:01][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 89]Tomcat initialized with port(s): 8080 (http)
+[INFO] [2019-11-08 15:59:01][org.springframework.web.context.ContextLoader - 276]Root WebApplicationContext: initialization completed in 1262 ms
+[INFO] [2019-11-08 15:59:01][org.springframework.boot.web.servlet.ServletRegistrationBean - 190]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] [2019-11-08 15:59:01][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] [2019-11-08 15:59:01][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] [2019-11-08 15:59:01][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] [2019-11-08 15:59:01][org.springframework.boot.web.servlet.FilterRegistrationBean - 258]Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] [2019-11-08 15:59:01][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - 534]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@481a15ff: startup date [Fri Nov 08 15:58:59 CST 2019]; root of context hierarchy
+[INFO] [2019-11-08 15:59:01][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/hello/{name}]}" onto public java.lang.String com.gyf.web.controller.HelloController.hello(java.lang.String)
+[INFO] [2019-11-08 15:59:01][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/stu/list]}" onto public java.lang.String com.gyf.web.controller.StudentController.list(org.springframework.ui.Model)
+[INFO] [2019-11-08 15:59:01][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/user/{id}]}" onto public com.gyf.model.User com.gyf.web.controller.UserController.UserInfo(java.lang.Integer)
+[INFO] [2019-11-08 15:59:01][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/user/register]}" onto public java.lang.String com.gyf.web.controller.UserJdbcController.register()
+[INFO] [2019-11-08 15:59:01][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/user/reg]}" onto public java.lang.String com.gyf.web.controller.UserSourceContrller.register()
+[INFO] [2019-11-08 15:59:01][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [2019-11-08 15:59:01][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 543]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [2019-11-08 15:59:01][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-11-08 15:59:01][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-11-08 15:59:01][org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - 273]Detected @ExceptionHandler methods in quanJuException
+[INFO] [2019-11-08 15:59:01][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - 362]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2019-11-08 15:59:02][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer - 127]ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO] [2019-11-08 15:59:02][org.springframework.jmx.export.annotation.AnnotationMBeanExporter - 431]Registering beans for JMX exposure on startup
+[INFO] [2019-11-08 15:59:02][org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - 201]Tomcat started on port(s): 8080 (http)
+[INFO] [2019-11-08 15:59:02][com.gyf.App - 57]Started App in 2.528 seconds (JVM running for 3.232)
+[INFO] [2019-11-08 15:59:06][org.springframework.web.servlet.DispatcherServlet - 489]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [2019-11-08 15:59:06][org.springframework.web.servlet.DispatcherServlet - 508]FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+[INFO] [2019-11-08 15:59:06][com.gyf.aspect.WebLogAspect - 36]---------------request----------------
+[INFO] [2019-11-08 15:59:06][com.gyf.aspect.WebLogAspect - 37]URL : http://localhost:8080/user/reg
+[INFO] [2019-11-08 15:59:06][com.gyf.aspect.WebLogAspect - 38]HTTP_METHOD : GET
+[INFO] [2019-11-08 15:59:06][com.gyf.aspect.WebLogAspect - 39]IP : 127.0.0.1
+[INFO] [2019-11-08 15:59:06][com.gyf.service.UserService.UserService - 26]abcdef
+[INFO] [2019-11-08 15:59:06][com.gyf.aspect.WebLogAspect - 48]---------------response----------------
+[INFO] [2019-11-08 15:59:06][com.gyf.aspect.WebLogAspect - 50]RESPONSE : SUCCESS
+[INFO] [2019-11-25 10:26:21][com.gyf.logger.LogerFactory - 10]info
+[ERROR] [2019-11-25 10:26:21][com.gyf.logger.LogerFactory - 12]error
+[WARN] [2019-11-25 10:26:21][com.gyf.logger.LogerFactory - 13]warn
+[INFO] [2019-11-25 10:26:44][com.gyf.logger.LogerFactory - 10]info
+[ERROR] [2019-11-25 10:26:44][com.gyf.logger.LogerFactory - 12]error
+[WARN] [2019-11-25 10:26:44][com.gyf.logger.LogerFactory - 13]warn
+[INFO] [2019-11-25 10:34:04][com.gyf.logger.LogerFactory - 12]info
+[ERROR] [2019-11-25 10:34:04][com.gyf.logger.LogerFactory - 14]error
+[WARN] [2019-11-25 10:34:04][com.gyf.logger.LogerFactory - 15]warn
+[INFO] [2019-11-25 10:39:05][com.gyf.logger.getLog - 13]info
+[INFO] [2019-11-25 10:39:20][com.gyf.logger.getLog - 13]我是info
+[INFO] [2019-12-09 14:20:44][com.test.test12 - 18]woshi
+[INFO] [2019-12-09 14:21:06][com.test.test12 - 18]woshi
+[INFO] [2020-01-06 16:00:04][org.hibernate.validator.internal.util.Version - 21]HV000001: Hibernate Validator 6.0.17.Final
+[INFO] [2020-01-06 16:00:04][com.qy.App - 50]Starting App on DESKTOP-MV63QL8 with PID 5372 (C:\Users\QY3022\Desktop\Test\springboot-demo\target\classes started by QY3022 in C:\Users\QY3022\Desktop\Test\springboot-demo)
+[INFO] [2020-01-06 16:00:04][com.qy.App - 648]No active profile set, falling back to default profiles: default
+[WARN] [2020-01-06 16:00:05][org.mybatis.spring.mapper.ClassPathMapperScanner - 167]No MyBatis mapper was found in '[com.qy]' package. Please check your configuration.
+[INFO] [2020-01-06 16:00:05][com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor - 48]Post-processing PropertySource instances
+[INFO] [2020-01-06 16:00:05][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter - 41]Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO] [2020-01-06 16:00:05][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter - 41]Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO] [2020-01-06 16:00:05][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter - 41]Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO] [2020-01-06 16:00:05][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter - 41]Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO] [2020-01-06 16:00:05][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter - 41]Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+[INFO] [2020-01-06 16:00:05][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter - 41]Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO] [2020-01-06 16:00:05][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter - 41]Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO] [2020-01-06 16:00:05][com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter - 34]Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO] [2020-01-06 16:00:05][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 90]Tomcat initialized with port(s): 8080 (http)
+[INFO] [2020-01-06 16:00:05][org.springframework.web.context.ContextLoader - 284]Root WebApplicationContext: initialization completed in 1062 ms
+[INFO] [2020-01-06 16:00:06][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - 171]Initializing ExecutorService 'applicationTaskExecutor'
+[INFO] [2020-01-06 16:00:06][com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver - 35]Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO] [2020-01-06 16:00:06][com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector - 33]Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[WARN] [2020-01-06 16:00:06][org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration - 67]Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+[INFO] [2020-01-06 16:00:06][org.springframework.boot.web.embedded.tomcat.TomcatWebServer - 202]Tomcat started on port(s): 8080 (http) with context path ''
+[INFO] [2020-01-06 16:00:06][com.qy.App - 59]Started App in 1.945 seconds (JVM running for 2.813)
