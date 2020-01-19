@@ -1,9 +1,5 @@
 package com.qy.test;
 
-import com.qy.utils.HandleColumnSystemIdsUtil;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
 
 /**
  * @author by QY3022
@@ -13,18 +9,35 @@ import org.springframework.stereotype.Component;
 //@ConfigurationProperties(prefix = "csc.asd")
 public class Hello {
 
-
     public static void main(String[] args) {
-        Hello hello = new Hello();
-        pringtln();
-    }
-
-    public static void pringtln(){
-        String id = "___111+1___,___111+6___,___111+6___,___111+6___,___111+6___";
-        String s = HandleColumnSystemIdsUtil.removeColumnSystemIdsUnderLine(id);
-        System.out.println(s);
+        int i = chengJi(3);
+        System.out.println(i);
+        String str = "112";
+        str.toLowerCase();
     }
 
 
+    //打印乘法口诀表
+    public static void println(){
+        for(int i =1;i<=9;i++){
+            for(int j =1;j<=9;j++){
+                if(j<=i){
+                    System.out.print(i+"*"+j+"="+i*j);
+                    System.out.print("\t");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    /**
+     * 乘积问题
+     */
+    public static int chengJi(int i){
+        if(i == 1){
+            return 1;
+        }
+        return i * chengJi(i-1);
+    }
 
 }
