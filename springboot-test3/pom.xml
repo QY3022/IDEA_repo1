@@ -160,7 +160,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.24</version>
+            <version>1.2.25</version>
         </dependency>
 
         <!-- 去掉springboot的logging ，去掉springboot自带的log4j-->
